@@ -5,7 +5,7 @@ function setup() {
 var [xpos, ypos, xspeed, yspeed] = [225, 225, 0, 0];
 
 function draw() {
-	background(225);
+	background(100);
 	
 	fill(0);
 	text("Use the arrow keys (or WASD) to move the square around", 25, 25);
