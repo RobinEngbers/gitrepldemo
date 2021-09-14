@@ -1,14 +1,15 @@
+let x = 0;
+let y = 0;
+
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(600, 600);
 }
 
 function draw() {
-  fill(0, 255, 0);
-  rect(20, 20, 60, 60);
-  if (mouseIsPressed) {
-    fill(0);
-  } else {
-    fill(255);
-  }
-  ellipse(mouseX, mouseY, 80, 80);
+  background("#0055ff");
+  noStroke();
+  ellipse(x, y, 50, 50);
+  
+  x = x+1
+  y = y+1
 }
